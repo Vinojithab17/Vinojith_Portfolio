@@ -4,9 +4,19 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/Profile.jpeg";
 import Toolstack from "./Toolstack";
-
+import RowAndColumnSpacing from "./Grid";
+import Box from '@mui/material/Box';
+import Tilt from "react-parallax-tilt";
+const commonStyles = {
+  bgcolor: 'background.paper',
+  borderColor: 'text.primary',
+  m: 1,
+  border: 10,
+  width: '20rem',
+  height: '26.3rem',
+};
 function About() {
   return (
     <Container fluid className="about-section">
@@ -31,11 +41,17 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
+                        <Tilt>
+            <Box sx={{ ...commonStyles, borderRadius: '16px' }} >
             <img src={laptopImg} alt="about" className="img-fluid" />
+            </Box>
+              
+            </Tilt>
           </Col>
         </Row>
+        {/* <RowAndColumnSpacing /> */}
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">Skills </strong>
         </h1>
 
         <Techstack />
@@ -45,7 +61,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );
