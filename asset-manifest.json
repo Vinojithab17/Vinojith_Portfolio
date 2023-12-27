@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d83168b3.css",
+    "main.js": "/static/js/main.75b632ad.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Back-01.jpg": "/static/media/Back-01.77e21367dba5167df241.jpg",
+    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/Vinojith.jpeg": "/static/media/Vinojith.d1d2850273848937838f.jpeg",
+    "static/media/Profile.jpeg": "/static/media/Profile.f8b2215c62fcfe17c4b5.jpeg",
+    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/Vinojith_CV_2023.pdf": "/static/media/Vinojith_CV_2023.6240341978690ba5b082.pdf",
+    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.d83168b3.css.map": "/static/css/main.d83168b3.css.map",
+    "main.75b632ad.js.map": "/static/js/main.75b632ad.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d83168b3.css",
+    "static/js/main.75b632ad.js"
+  ]
+}
