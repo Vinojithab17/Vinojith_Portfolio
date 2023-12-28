@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import chatify from "../../Assets/Projects/AirSig.png";
+import chatify from "../../Assets/Projects/AirSig (2).png";
 import bitsOfCode from "../../Assets/Projects/airline.png";
 import editor from "../../Assets/Projects/roster.png";
 import Particle from "../Particle";
