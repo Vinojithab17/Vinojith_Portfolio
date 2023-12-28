@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Vinojith.jpeg";
+import myImgNoBack from "../../Assets/Vinojith-removebg-preview.png";
+import homeLogo from "../../Assets/home-main.svg";
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -12,12 +15,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Box from '@mui/material/Box';
 
 const commonStyles = {
-  bgcolor: 'background.paper',
-  borderColor: 'text.primary',
-  m: 1,
-  border: 10,
-  width: '20rem',
-  height: '22.4rem',
+  position:"relative",
+  bottom:'120px',
 };
 function Home2() {
   return (
@@ -43,7 +42,8 @@ actively seeking opportunities to work as a full-stack or backend developer.
           <Col md={4} className="myAvtar">
             <Tilt>
             <Box sx={{ ...commonStyles, borderRadius: '16px' }} >
-            <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={homeLogo} className="img-fluid" alt="avatar" style={{ "-webkit-filter": "drop-shadow(7px 7px 7px #FFF)", "filter" : "drop-shadow(7px 7px 7px #FFF)"
+        }}  />
             </Box>
               
             </Tilt>

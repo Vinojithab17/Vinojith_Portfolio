@@ -10,6 +10,8 @@ import RowAndColumnSpacing from "./Grid";
 import Box from '@mui/material/Box';
 import Tilt from "react-parallax-tilt";
 const commonStyles = {
+  position:"relative",
+  bottom:'140px',
   bgcolor: 'background.paper',
   borderColor: 'text.primary',
   m: 1,
